@@ -76,7 +76,7 @@ end;
 Source: "oalinst.exe"; DestDir: {tmp}; Flags: deleteafterinstall
 Source: "SCP5000Music.mp3"; DestDir: "{tmp}"; Flags: dontcopy ignoreversion
 Source: "C:\Include_InnoSetup\bass.dll"; DestDir: {tmp}; Flags: dontcopy ignoreversion
-Source: "C:\SFMLBin\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\SFMLBin\*"; DestDir: "C:\Windows\System32"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Run]
