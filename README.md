@@ -1,0 +1,2 @@
+# SFMLBinaryInstaller
+SFMLBinaryInstaller by RiritoXXL
